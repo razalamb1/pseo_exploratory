@@ -1,0 +1,28 @@
+# Docker Container for Creating PSEO National Margins
+
+## Getting Started
+
+In order to run this container, run the following command from the command line:
+
+```{shell}
+docker build -t pseo .
+```
+
+Then, to run the continaer:
+
+```{shell}
+docker run -p 5432:5432 pseo
+```
+
+If you want to export the national margins:
+
+```{shell}
+docker exec -it container_name psql -U postgres -d pseo
+\COPY national_earnings TO '/data/national_earnings.csv' WITH CSV HEADER;
+```
+
+And then, to move the national margins out of the container:
+
+```{shell}
+docker cp container_name:/data/national_earnings.csv data/national_earnings.csv
+```
