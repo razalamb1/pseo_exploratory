@@ -42,7 +42,7 @@ CREATE Table state_earn_four_digit (
 );
 -- Load data into table for all CIP codes --
 --- Y1, P25 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -74,7 +74,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y1, P50 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -106,7 +106,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y1, P75 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -138,7 +138,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y5, P25 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -170,7 +170,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y5, P50 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -202,7 +202,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y5, P75 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -234,7 +234,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y10, P25 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -266,7 +266,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y10, P50 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -298,7 +298,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = 'A';
 --- Y10, P75 ---
-INSERT INTO inst_earn_all (
+INSERT INTO state_earn_all (
         geo_identifier,
         degree_level,
         cipcode,
@@ -331,7 +331,7 @@ WHERE inst_level = 'S'
     AND cip_level = 'A';
 -- Load data into table for two-digit CIP codes --
 --- Y1, P25 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -363,7 +363,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y1, P50 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -395,7 +395,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y1, P75 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -427,7 +427,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y5, P25 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -459,7 +459,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y5, P50 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -491,7 +491,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y5, P75 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -523,7 +523,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y10, P25 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -555,7 +555,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y10, P50 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -587,7 +587,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '2';
 --- Y10, P75 ---
-INSERT INTO inst_earn_two_digit (
+INSERT INTO state_earn_two_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -620,7 +620,7 @@ WHERE inst_level = 'S'
     AND cip_level = '2';
 -- Load data into table for four-digit CIP codes --
 --- Y1, P25 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -652,7 +652,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y1, P50 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -684,7 +684,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y1, P75 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -716,7 +716,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y5, P25 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -748,7 +748,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y5, P50 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -780,7 +780,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y5, P75 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -812,7 +812,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y10, P25 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -844,7 +844,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y10, P50 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
@@ -876,7 +876,7 @@ FROM earnings
 WHERE inst_level = 'S'
     AND cip_level = '4';
 --- Y10, P75 ---
-INSERT INTO inst_earn_four_digit (
+INSERT INTO state_earn_four_digit (
         geo_identifier,
         degree_level,
         cipcode,
