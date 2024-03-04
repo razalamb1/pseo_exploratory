@@ -84,7 +84,7 @@ ALTER TABLE inst_earn_two_digit
 ADD COLUMN iea_id SERIAL;
 ---- update link for two-digit to all cip codes ----
 UPDATE inst_earn_two_digit AS iet
-SET iet_id = iet.iet_id
+SET iea_id = iea.iea_id
 FROM inst_earn_all AS iea
 WHERE iet.geo_identifier = iea.geo_identifier
     AND iet.degree_level = iea.degree_level
@@ -127,7 +127,7 @@ ALTER TABLE state_earn_two_digit
 ADD COLUMN sea_id SERIAL;
 ---- update link for two-digit to all cip codes ----
 UPDATE state_earn_two_digit AS stet
-SET set_id = stet.set_id
+SET sea_id = sea.sea_id
 FROM state_earn_all AS sea
 WHERE stet.geo_identifier = sea.geo_identifier
     AND stet.degree_level = sea.degree_level
